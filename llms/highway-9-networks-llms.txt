@@ -1,0 +1,21 @@
+# Highway 9 Networks
+
+> Highway 9 Networks delivers AI Wireless Infrastructure as a Service — secure private mobile networks and deterministic 5G connectivity for enterprise AI workloads. Its Virtual Mobile/AI Cloud (VMC) platform pairs a cloud control plane, distributed edge running a 5G core, private 5G wireless, and connected device/robot fleets to give autonomous robots, cameras, and edge devices ultra-reliable, ultra-low-latency connectivity across manufacturing, warehousing, higher education, and energy. Backed by Mayfield.
+
+## APIs
+
+- [Highway 9 Mobile Center Streaming APIs](https://highway9.com/mobile-center-streaming-apis/): Streaming APIs for orchestration, telemetry, device management, alerting, and analytics on Highway 9 private mobile networks. Base URL https://partner.demo.highway9networks.com/api/v1/orch. Full specification available through the partner portal for signed partners.
+
+## Docs
+
+- [Mobile Center Streaming APIs overview](https://highway9.com/mobile-center-streaming-apis/): Public overview of the API resource areas (access/config, device management, alerts, audit/analytics, security/auth, application management, operator metadata, automation).
+- [Technical Support](https://highway9.com/technical-support/): Technical support resources.
+- [Professional Services](https://highway9.com/professional-services/): Professional services offering.
+- [Support Portal](https://highway9networks.freshdesk.com/support/login): Freshdesk support portal login.
+- [Blog](https://highway9.com/blogs/): Company blog.
+- [Partner Console](https://partner.demo.highway9networks.com/): Highway 9 Networks Console login (partner/customer sign-in).
+
+## About
+
+- [Website](https://highway9.com): Company website.
+- Backed by: Mayfield.

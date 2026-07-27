@@ -1,8 +1,18 @@
 aid: highway-9-networks
 name: Highway 9 Networks
-description: Highway 9 Networks is a company surfaced as a portfolio company of mayfield and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Highway 9 Networks delivers AI Wireless Infrastructure as a Service, providing
+  secure private mobile networks and deterministic 5G connectivity for enterprise
+  AI workloads. Its Virtual Mobile/AI Cloud (VMC) platform combines a cloud control
+  plane (Mobile Center), distributed edge running a 5G core and AI services (Mobile
+  Edge), private 5G wireless infrastructure (Mobile Network), and connected device
+  and robot fleets (Mobile Zones) to give autonomous robots, cameras, and edge
+  devices ultra-reliable, ultra-low-latency connectivity across manufacturing,
+  warehousing, higher education, and energy environments. Highway 9 exposes Mobile
+  Center streaming APIs for orchestration, telemetry, device management, alerting,
+  and analytics, though the full specification is available only through its partner
+  portal for signed partners. The company is backed by Mayfield and was added to the
+  API Evangelist network as an enriched provider profile.
 url: https://raw.githubusercontent.com/api-evangelist/highway-9-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +20,71 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://highway9.com/wp-content/uploads/logo-highway9networks.svg
 tags:
 - Company
-apis: []
+- 5G
+- Private Mobile Networks
+- Enterprise Wireless
+- Edge Computing
+- Network Infrastructure
+- IoT
+- Deterministic Wireless
+- Artificial Intelligence
+apis:
+- name: Highway 9 Mobile Center Streaming APIs
+  description: >-
+    Streaming APIs for orchestration, telemetry, device management, alerting, and
+    analytics on Highway 9 private mobile networks. Resource areas include access
+    and configuration (AccessConfig, Configure), device management (DeviceInfo,
+    DeviceGroup), alerts and notifications (Alarm, alertProfile, alertsTemplate),
+    audit and analytics (AuditLog), security and authentication (apiToken,
+    Certificate), application management (Application, Attribute), operator metadata
+    (carrierInfo, mnoOperator), and automation (chatbot). Full specifications are
+    available through the Highway 9 partner portal for signed partners.
+  humanURL: https://highway9.com/mobile-center-streaming-apis/
+  baseURL: https://partner.demo.highway9networks.com/api/v1/orch
+  properties:
+  - type: Documentation
+    url: https://highway9.com/mobile-center-streaming-apis/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/highway-9-networks-domain-security.yml
 - type: Website
   url: https://highway9.com
+- type: Documentation
+  url: https://highway9.com/mobile-center-streaming-apis/
+- type: Blog
+  url: https://highway9.com/blogs/
+- type: Support
+  url: https://highway9.com/technical-support/
+- type: HelpCenter
+  url: https://highway9networks.freshdesk.com/support/login
+- type: Login
+  url: https://partner.demo.highway9networks.com/
+- type: LLMsTxt
+  url: llms/highway-9-networks-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
